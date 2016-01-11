@@ -1,34 +1,22 @@
 {
-  "name": "cloudzilla.com",
+  "name": "Ninja Star",
   "version": "1.0.0",
-  "description": "Start up website for stealth start up.",
+  "description": "Simple static html web page builder",
   "main": "gulpfile.js",
   "scripts": {
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bigbassroller/cloudzilla.git"
+    "url": "git+https://github.com/bigbassroller/ninja-star.git"
   },
-  "keywords": [
-    "cloudzilla",
-    "1app",
-    "app",
-    "streaming",
-    "game",
-    "instant",
-    "play",
-    "playable",
-    "apps",
-    "ios",
-    "adroid"
-  ],
+  "keywords": [],
   "author": "Michael Chavez, Space-Rocket | Web & Graphic Design",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bigbassroller/cloudzilla/issues"
+    "url": "https://github.com/bigbassroller/ninja-star/issues"
   },
-  "homepage": "https://github.com/bigbassroller/cloudzilla#readme",
+  "homepage": "https://github.com/bigbassroller/ninja-star#readme",
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
     "del": "^2.2.0",
