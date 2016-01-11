@@ -13,8 +13,8 @@ Gulp.task('watch', function () {
     Gulp.watch('./**/*/*.js', ['scripts']);
     Gulp.watch('./**/*/*/*.js', ['scripts']);
 
-    Gulp.watch('./*.nunjucks', ['nunjucks']);
-    Gulp.watch('./**/*.nunjucks', ['nunjucks']);
-    Gulp.watch('./**/*/*.nunjucks', ['nunjucks']);
-    Gulp.watch('./**/*/*/*.nunjucks', ['nunjucks']);
+    Gulp.watch('./*.html', ['nunjucks']);
+    Gulp.watch('./**/*.html', ['nunjucks']);
+    Gulp.watch('./**/*/*.html', ['nunjucks']);
+    Gulp.watch('./**/*/*/*.html', ['nunjucks']);
 });
