@@ -44,6 +44,7 @@
     "webpack": "^1.12.10"
   },
   "devDependencies": {
+    "gulp-html-prettify": "0.0.1",
     "gulp-htmlclean": "^2.7.6",
     "gulp-nunjucks-render": "^1.0.0"
   }
