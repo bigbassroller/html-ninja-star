@@ -1,17 +1,16 @@
 var Gulp = require('gulp');
-var NunjucksRender = require('gulp-nunjucks-render');
-var Htmlclean = require('gulp-htmlclean');
+var Nunjucks = require('gulp-nunjucks-html');
+ 
+Gulp.task('nunjucksfoo', function() {
 
-Gulp.task('nunjucks', function() {
-  NunjucksRender.nunjucks.configure(['./client/html/templates/']);
 
   return Gulp.src('./client/html/pages/**/*.+(html|nunjucks)')
 
-  .pipe(NunjucksRender())
-  // .pipe(Htmlclean({
-  //     protect: /<\!--%fooTemplate\b.*?%-->/g,
-  //     edit: function(html) { return html.replace(/\begg(s?)\b/ig, 'omelet$1'); }
-  //   }))
-  .pipe(Gulp.dest('public'))
-
+    .pipe(Nunjucks({
+      searchPaths: ['./client/html/templates/']
+    }))
+    .on('error', function(err) {
+      console.log('something went wrong') 
+    })
+    .pipe(Gulp.dest('publicfoo'));
 });
