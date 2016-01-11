@@ -12,5 +12,5 @@ Gulp.task('nunjucksfoo', function() {
     .on('error', function(err) {
       console.log('something went wrong') 
     })
-    .pipe(Gulp.dest('publicfoo'));
+    .pipe(Gulp.dest('public'));
 });
