@@ -1,7 +1,7 @@
 var Gulp = require('gulp');
 var Nunjucks = require('gulp-nunjucks-html');
  
-Gulp.task('nunjucksfoo', function() {
+Gulp.task('nunjucks', function() {
 
 
   return Gulp.src('./client/html/pages/**/*.+(html|nunjucks)')
