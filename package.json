@@ -1,0 +1,50 @@
+{
+  "name": "cloudzilla.com",
+  "version": "1.0.0",
+  "description": "Start up website for stealth start up.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigbassroller/cloudzilla.git"
+  },
+  "keywords": [
+    "cloudzilla",
+    "1app",
+    "app",
+    "streaming",
+    "game",
+    "instant",
+    "play",
+    "playable",
+    "apps",
+    "ios",
+    "adroid"
+  ],
+  "author": "Michael Chavez, Space-Rocket | Web & Graphic Design",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigbassroller/cloudzilla/issues"
+  },
+  "homepage": "https://github.com/bigbassroller/cloudzilla#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "del": "^2.2.0",
+    "font-awesome": "^4.5.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "^3.0.7",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0",
+    "webpack": "^1.12.10"
+  },
+  "devDependencies": {
+    "gulp-htmlclean": "^2.7.6",
+    "gulp-nunjucks-render": "^1.0.0"
+  }
+}

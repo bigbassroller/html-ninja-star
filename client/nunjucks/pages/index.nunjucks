@@ -1,0 +1,11 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block title %}
+Home page title
+{% endblock %}
+{% block content %} 
+      <div class="jumbotron">
+        <h1>Theme example</h1>
+        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+      </div>
+{% endblock %}
