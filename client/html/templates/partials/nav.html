@@ -1,19 +1,17 @@
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="./index.html">Ninja <i class="fa fa-star"></i></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="./index.html">Home</a></li>
-            <li><a href="./style-guide.html">Style Guide</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+{% set navigation_bar = [
+	['http://localhost:8888/ninja-star/public/index.html',
+	 'index',
+	 'Home'],
+	['http://localhost:8888/ninja-star/public/style-guide.html',
+	 'style-guide',
+	 'Style Guide']
+] -%}
+
+{% set active_page = active_page|default('index') -%}
+<ul id="navigation">
+		{% for href, id, caption in navigation_bar -%}
+		<li {% if id == active_page %} class="active"{% endif%}>
+		<a href="{% block href %}{{ href }}{% endblock %}">{% block caption %}{{ caption }}{% endblock -%}</a>
+		</li>
+{% endfor -%}
+</ul>
