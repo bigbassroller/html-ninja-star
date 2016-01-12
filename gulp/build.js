@@ -1,4 +1,9 @@
-var Gulp = require('gulp');
+var gulp = require('gulp');
+var runSequence = require('run-sequence');
 
-
-Gulp.task('build', ['nunjucks', 'sass', 'media', 'scripts']);
+gulp.task('build', function(done) {
+    runSequence('nunjucks', 'sass', 'media', 'scripts', function() {
+			    runSequence('webserver', function() {});
+        done();
+    });
+});
