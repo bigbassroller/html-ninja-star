@@ -8,8 +8,6 @@ A simple static site builder that uses Gulp and Nunjucks
 +   [Nunjucks](https://mozilla.github.io/nunjucks/) for templating 
 +   [Bootstrap](http://getbootstrap.com/) SASS
 +   [Font Awesome](http://fontawesome.io/)
-+   Valid, Clean, SEO Friendly Markup
-+   Highlighted Active Menu Items
 
 
 ## Live demo
