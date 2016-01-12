@@ -1,5 +1,5 @@
 {
-  "name": "Ninja Star",
+  "name": "html-ninja-star",
   "version": "1.0.0",
   "description": "Simple static html web page builder",
   "main": "gulpfile.js",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "gulp-html-prettify": "0.0.1",
     "gulp-htmlclean": "^2.7.6",
-    "gulp-nunjucks-render": "^1.0.0",
+    "gulp-nunjucks-html": "^2.0.0",
     "gulp-webserver": "^0.9.1"
   }
 }
