@@ -30,7 +30,7 @@ Ensure you have Gulp installed globally:
 ```sh
 $ npm install --global gulp
 ```
-Next git clone the repo
+Next git clone the repo and install npm packages:
 ```bash
 $ git clone git@github.com:bigbassroller/html-ninja-star.git && cd ./html-ninja-star
 $ npm install
@@ -40,7 +40,7 @@ $ npm install
 
 ```bash
 $ gulp
-
+```
 
 ## Why? 
 
@@ -69,6 +69,7 @@ $ npm version
 #   uv: '1.7.5',
 #   v8: '4.6.85.31',
 #   zlib: '1.2.8' }
+```
 
 Contributions are welcome. 
 
