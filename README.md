@@ -1,4 +1,4 @@
-# ninja-star
+# HTML Ninja Star
 
 A simple static site builder that uses Gulp and Nunjucks
 
