@@ -1,10 +1,10 @@
 {
   "name": "html-ninja-star",
-  "version": "1.0.0",
+  "version": "1.0.",
   "description": "Simple static html web page builder",
   "main": "gulpfile.js",
   "scripts": {
-    "test": ""
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -18,17 +18,16 @@
   },
   "homepage": "https://github.com/bigbassroller/ninja-star#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "bootstrap-sass": "^3.3.6",
+    "bootstrap": "^4.0.0-beta.2",
     "del": "^3.0.0",
     "font-awesome": "^4.5.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-newer": "^1.1.0",
-    "gulp-nunjucks-render": "^2.2.1",
     "gulp-sass": "^3.1.0",
     "gulp-util": "^3.0.7",
     "merge-stream": "^1.0.0",
+    "octicons": "^5.0.1",
     "path": "^0.12.7",
     "require-dir": "^0.3.0",
     "run-sequence": "^2.0.0",
@@ -38,6 +37,7 @@
     "gulp-html-prettify": "0.0.1",
     "gulp-htmlclean": "^2.7.6",
     "gulp-nunjucks-html": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-webserver": "^0.9.1"
   }
 }
